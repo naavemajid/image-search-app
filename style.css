@@ -14,14 +14,14 @@ h1{
     font-weight: bold;
     text-align: center;
     margin: 40px 0 60px 0;
-    border: 1px solid red;
+    
 }
 form{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
-    border: 1px solid red;
+   
 }
 
 #search-input{
@@ -53,6 +53,7 @@ form{
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
    
 }
 
@@ -68,7 +69,7 @@ form{
 
 .search-result img{
     width: 100%;
-    height: 100%;
+    height: 200px;
     object-fit: cover;
     transition: opacity 0.2s ease-in-out;
 }

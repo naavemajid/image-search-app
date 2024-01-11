@@ -1,9 +1,9 @@
 const accessKey = "4YiO3pDJBtpmRNZ87CZjoHtBckgOhhhpgwx-tTRYgqA";
 
-const formEl = document.querySelector('form');
-const inputEl = document.getElementById('searcg-input');
-const searchResults = document.querySelector('.search-results');
-const showMore = document.getElementById('show-more-button');
+const formEl = document.querySelector("form");
+const inputEl = document.getElementById("search-input");
+const searchResults = document.querySelector(".search-results");
+const showMore = document.getElementById("show-more-button");
 
 let inputData = "";
 let page = 1;
@@ -34,7 +34,7 @@ async function searchImages(){
 
         imagewrapper.appendChild(image);
         imagewrapper.appendChild(imageLink);
-        imagewrapper.appendChild(imagewrapper);
+        searchResults.appendChild(imagewrapper);
     })
     page++;
 
