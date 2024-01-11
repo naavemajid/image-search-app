@@ -10,7 +10,7 @@ let page = 1;
 
 
 async function searchImages(){
-    inputData = inputEl.ariaValueMax;
+    inputData = inputEl.value;
     const url = `https://api.unsplash.com/search/photos?page=${page}&query=${inputData}&client_id=${accessKey}`
 
     const response = await fetch(url);
