@@ -3,7 +3,7 @@ Whiles thinking about some simple projects to develop and also to try out new th
 l went to browse the internet and just admiring the creativity of other developers. I landed on a site called <em>Unsplash.com</em>.After drawing an inspiration from  <a href="https://unsplash.com/"> Unsplash website </a>,
 then decided use use their <em>API</em> to create a simple image-search-app.
 
-# What it doe
+# What it does
 it simply displays the images of objects that your search for.
 
 # Demo
