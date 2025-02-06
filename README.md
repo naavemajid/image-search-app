@@ -8,3 +8,6 @@ it simply displays the images of objects that your search for.
 
 # Demo
 <img width="946" alt="2025-02-06 (1)" src="https://github.com/user-attachments/assets/82d2aee2-13cb-48fd-a971-1fecfaa9dacf" />
+
+# link to the website is <a href="[https://unsplash.com/](https://naavemajid.github.io/image-search-app/)"> Unsplash website </a>
+
